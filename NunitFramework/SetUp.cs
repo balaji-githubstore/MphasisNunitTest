@@ -60,6 +60,8 @@ namespace NunitFramework
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(40);
             driver.Manage().Window.Maximize();
+
+
         }
 
 

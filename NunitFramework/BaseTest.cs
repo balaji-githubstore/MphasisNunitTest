@@ -116,7 +116,7 @@ namespace NunitFramework
         [Test, Timeout(5000)]
         public void Test4([Range(1, 10)] int number)
         {
-
+            Console.WriteLine();
         }
 
         [Test]

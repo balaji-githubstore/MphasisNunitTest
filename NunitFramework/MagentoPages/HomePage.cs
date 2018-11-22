@@ -21,6 +21,7 @@ namespace NUnitFramework.MagentoPages
         {
             this.driver = driver;
             PageFactory.InitElements(driver, this);
+
         }
 
         public void ClickOnMyAccount()
